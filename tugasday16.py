@@ -40,7 +40,7 @@ class TestLogin(unittest.TestCase):
         self.assertIn('Epic sadface: Username and password do not match any user in this service', error_massage)
     
     def test_success_login(self):
-        # testcase 1
+        # testcase 3
         driver = self.browser #buka web browser
         driver.get("https://www.saucedemo.com/") # buka situs
         time.sleep(3)
